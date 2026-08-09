@@ -9,11 +9,11 @@ from playwright.sync_api import sync_playwright
 
 
 # ================= ENV =================
-PROXY_URL = os.getenv("PROXY", "")
-COOKIE2 = os.getenv("COOKIE2") # 对应paymenter_remember=的cookies
-COOKIE3 = os.getenv("COOKIE3") # 对应paymenter_session=的cookies
-TG_TOKEN = os.getenv("TG_TOKEN")
-TG_CHAT_ID = os.getenv("TG_CHAT_ID")
+PROXY_URL = os.getenv("PROXY", "hysteria2://ku7zgw.RFsJCd@216.167.28.186:40044?insecure=1&allowInsecure=1#Firadio-US-1T-HY2-NetLab-186-HUI%20252")
+COOKIE2 = os.getenv("eyJpdiI6IjBWdGdxU2FueStreVhaMFNlMFB5Nmc9PSIsInZhbHVlIjoia1JaY1JnTmN3OEJndjVqZ0Y1TVNzdDRUWW9XUjk0YmlhNHJRWXl5djJBeCtodlRSU09iaGVLc0VuUGhwQXl0SVRpU01ScVovTW1jZ3dSczRvb1JvdUovbHc4WmxVeStXUDdrYjVEYXIvZW89IiwibWFjIjoiN2FjOWNiNGUwMGM2YjEwMmMyNjU0M2RiNWY5YWQyMzI1YjAwZGFkZmE3ZWU0NjRkYWFiN2YxYTNmZjVmMGQxNyIsInRhZyI6IiJ9") # 对应paymenter_remember=的cookies
+COOKIE3 = os.getenv("eyJpdiI6InR2NHBDQU4vTks3LzkvWWt3djN0T2c9PSIsInZhbHVlIjoiOUNyVFYrVm03Z1QwOHhtbzI3MTJCYWdQUERKQTVkRGV0Z3p6VVZLR3VVWk5walJqc0VpZ09qdlB0RlVXaE94cDFXR05BeFZmaTBGUU9OS3IveGZrTHQ1ZjBxMENOazdOTk8xOEtPMlBidVNhNnAzSkorckFxT1ZVczJJMDJ4NDgiLCJtYWMiOiI5Njg1MDA1NTdhN2JhZjZkYTJjMWY0YzlkNGJmNGZmMzZlMmQwZTI3MWM3M2EyZDg3NjcwNmY3YWJjZjk4NmQxIiwidGFnIjoiIn0") # 对应paymenter_session=的cookies
+TG_TOKEN = os.getenv("8844485672:AAHfj3XkOO1iZ-_XtW3b6vZepmlV6GFXnok")
+TG_CHAT_ID = os.getenv("6443082157")
 
 MAIN_URL = "https://client.freemchosting.com/login"
 DASHBOARD_URL = "https://client.freemchosting.com/dashboard"
